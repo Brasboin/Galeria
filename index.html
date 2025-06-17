@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestra Historia de Amor | Momentos Especiales</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">
+                <i class="fas fa-heart"></i>
+                Nuestra Historia de Amor
+                <i class="fas fa-heart"></i>
+            </h1>
+            <p class="love-subtitle">PINGUIZEBRAAAA 💕</p>
+            <nav class="nav">
+                <div class="section-selector">
+                    <button class="section-btn active" data-section="gallery">
+                        <i class="fas fa-calendar"></i>
+                        Galería por Fechas
+                    </button>
+                    <button class="section-btn" data-section="first-day">
+                        <i class="fas fa-heart"></i>
+                        Primer Día de Pareja
+                    </button>
+                    <button class="section-btn" data-section="anniversaries">
+                        <i class="fas fa-ring"></i>
+                        Aniversarios
+                    </button>
+                </div>
+                <div class="year-selector" id="yearSelector">
+                    <button class="year-btn active" data-year="2023">2023</button>
+                    <button class="year-btn" data-year="2024">2024</button>
+                    <button class="year-btn" data-year="2025">2025</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <!-- Sección Galería por Fechas -->
+            <div class="content-section active" id="gallery-section">
+                <div class="month-tabs" id="monthTabs">
+                    <!-- Los tabs de meses se generan dinámicamente según el año seleccionado -->
+                </div>
+
+                <div class="gallery-container">
+                    <div class="gallery-header">
+                        <h2 class="current-month">Enero 2023</h2>
+                        <p class="gallery-subtitle">Momentos especiales del mes</p>
+                    </div>
+
+                    <div class="gallery">
+                        <div class="main-image-container">
+                            <img src="https://picsum.photos/800/600?random=1" alt="Imagen principal" class="main-image">
+                            <div class="image-overlay">
+                                <h3 class="image-title">Imagen Principal</h3>
+                                <p class="image-description">Descripción de la imagen principal del mes</p>
+                            </div>
+                        </div>
+
+                        <div class="secondary-images">
+                            <div class="image-grid">
+                                <div class="image-item">
+                                    <img src="https://picsum.photos/400/300?random=2" alt="Imagen 2">
+                                    <div class="image-info">
+                                        <span class="image-date">01 Enero</span>
+                                    </div>
+                                </div>
+                                <div class="image-item">
+                                    <img src="https://picsum.photos/400/300?random=3" alt="Imagen 3">
+                                    <div class="image-info">
+                                        <span class="image-date">05 Enero</span>
+                                    </div>
+                                </div>
+                                <div class="image-item">
+                                    <img src="https://picsum.photos/400/300?random=4" alt="Imagen 4">
+                                    <div class="image-info">
+                                        <span class="image-date">10 Enero</span>
+                                    </div>
+                                </div>
+                                <div class="image-item">
+                                    <img src="https://picsum.photos/400/300?random=5" alt="Imagen 5">
+                                    <div class="image-info">
+                                        <span class="image-date">15 Enero</span>
+                                    </div>
+                                </div>
+                                <div class="image-item">
+                                    <img src="https://picsum.photos/400/300?random=6" alt="Imagen 6">
+                                    <div class="image-info">
+                                        <span class="image-date">20 Enero</span>
+                                    </div>
+                                </div>
+                                <div class="image-item">
+                                    <img src="https://picsum.photos/400/300?random=7" alt="Imagen 7">
+                                    <div class="image-info">
+                                        <span class="image-date">25 Enero</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sección Primer Día de Pareja -->
+            <div class="content-section" id="first-day-section">
+                <div class="special-section-container">
+                    <div class="special-header">
+                        <h2 class="special-title">
+                            <i class="fas fa-heart"></i>
+                            Nuestro Primer Día Juntos como pareja
+                            <i class="fas fa-heart"></i>
+                        </h2>
+                        <p class="special-subtitle">El día que cambió todo para siempre</p>
+                        <div class="special-date">17 de Noviembre, 2023</div>
+                    </div>
+
+                    <div class="love-story-layout">
+                        <div class="love-section">
+                            <div class="main-moment">
+                                <img src="./primerdia/3.jpg" alt="Primer día juntos" class="love-image">
+                                <div class="love-overlay">
+                                    <h3 class="moment-title">El momento que lo cambió todo</h3>
+                                    <p class="moment-description">La primera foto juntos como pareja oficial</p>
+                                </div>
+                            </div>
+                            <div class="love-moments-grid-small">
+                                <div class="love-moment">
+                                    <img src="./primerdia/6.jpg" alt="Primer momento">
+                                    <div class="moment-info">
+                                        <h4>Muy wuapaaa</h4>
+                                        <p>descansando en la maya jeje</p>
+                                    </div>
+                                </div>
+                                <div class="love-moment">
+                                    <img src="./primerdia/1.jpg" alt="Segundo momento">
+                                    <div class="moment-info">
+                                        <h4>Mi niña</h4>
+                                        <p>tan linda en el columpioo</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="love-section">
+                            <div class="main-moment">
+                                <img src="./primerdia/4.jpg" alt="Segundo momento especial" class="love-image">
+                                <div class="love-overlay">
+                                    <h3 class="moment-title">Otro momento mágico</h3>
+                                    <p class="moment-description">Cuando me dijiste que SIII</p>
+                                </div>
+                            </div>
+                            <div class="love-moments-grid-small">
+                                <div class="love-moment">
+                                    <img src="./primerdia/5.jpg" alt="Tercer momento">
+                                    <div class="moment-info">
+                                        <h4>te mirabas tan linda ese dia</h4>
+                                        <p>:3</p>
+                                    </div>
+                                </div>
+                                <div class="love-moment">
+                                    <img src="./primerdia/7.jpg" alt="Cuarto momento">
+                                    <div class="moment-info">
+                                        <h4>Oficialmente novios</h4>
+                                        <p>El "sí quiero" más hermoso</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sección Aniversarios -->
+            <div class="content-section" id="anniversaries-section">
+                <div class="anniversaries-container">
+                    <div class="anniversaries-header">
+                        <h2 class="anniversaries-title">
+                            <i class="fas fa-ring"></i>
+                            Nuestros Aniversarios
+                        </h2>
+                        <p class="anniversaries-subtitle">Celebrando cada año de amor</p>
+                    </div>
+
+                    <div class="anniversaries-timeline">
+                        <!-- Primer Aniversario -->
+                        <div class="anniversary-card">
+                            <div class="anniversary-badge">
+                                <span class="anniversary-number">1er</span>
+                                <span class="anniversary-label">Año</span>
+                            </div>
+                            <div class="anniversary-content">
+                                <div class="anniversary-date">17 de Noviembre, 2024</div>
+                                <h3 class="anniversary-title">Primer Aniversario</h3>
+                                <p class="anniversary-description">365 días de aventuras, risas y amor incondicional</p>
+                                <div class="anniversary-images">
+                                    <img src="./aniver/1.jpg" alt="Noche de jacuzzi">
+                                    <img src="./aniver/2.jpg" alt="Desayuno delicioso">
+                                    <img src="./aniver/3.jpg" alt="descansando en la maya">
+                                    <img src="./aniver/4.jpg" alt="fotos juntitossss">
+                                    <img src="./aniver/5.jpg" alt="momento de chill">
+                                    <img src="./aniver/6.jpg" alt="La mujer mas hermosa del mundo">
+                                </div>
+                            </div>
+                        </div>
+
+                      
+
+                        <!-- Espacio para futuros aniversarios -->
+                        <div class="anniversary-placeholder">
+                            <div class="placeholder-content">
+                                <i class="fas fa-plus-circle"></i>
+                                <h3>Futuros Aniversarios</h3>
+                                <p>Aquí agregaremos más años de felicidad...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Modal para ver imágenes en grande -->
+    <div class="modal" id="imageModal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img src="" alt="" id="modalImage">
+            <div class="modal-info">
+                <h3 id="modalTitle"></h3>
+                <p id="modalDescription"></p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>💕 Creado con amor para preservar nuestros momentos más especiales 💕</p>
+            <p>&copy; 2023-2025 Nuestra Historia de Amor</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
